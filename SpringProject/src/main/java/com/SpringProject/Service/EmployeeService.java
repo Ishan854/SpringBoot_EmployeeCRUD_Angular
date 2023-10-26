@@ -1,0 +1,19 @@
+package com.SpringProject.Service;
+
+import java.util.List;
+
+import com.SpringProject.DTO.EmployeeDTO;
+import com.SpringProject.DTO.EmployeeSaveDTO;
+import com.SpringProject.DTO.EmployeeUpdateDTO;
+
+public interface EmployeeService {
+
+	String addEmployee(EmployeeSaveDTO employeeSaveDTO);
+
+	List<EmployeeDTO> getAllEmployee();
+
+	String updateEmployee(EmployeeUpdateDTO employeeUpdateDTO);
+
+	boolean deleteEmployee(int id);
+	
+}

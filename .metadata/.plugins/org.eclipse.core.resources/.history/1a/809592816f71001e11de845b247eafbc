@@ -1,0 +1,5 @@
+package com.SpringProject.Repo;
+
+public interface EmployeeRepo {
+
+}

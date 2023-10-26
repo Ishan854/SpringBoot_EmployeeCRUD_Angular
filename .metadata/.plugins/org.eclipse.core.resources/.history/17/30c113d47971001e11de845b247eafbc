@@ -1,0 +1,26 @@
+package com.SpringProject.Service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.SpringProject.DTO.EmployeeSaveDTO;
+import com.SpringProject.Entity.Employee;
+import com.SpringProject.Repo.EmployeeRepo;
+@Service
+public class EmployeeServiceImpl implements EmployeeService{
+	@Autowired
+	private EmployeeRepo employeeRepo;
+	
+	@Override
+	public String addEmployee(EmployeeSaveDTO employeeSaveDTO) {
+		Employee employee = new Employee(
+				employeeSaveDTO.getEmployeename(),
+				employeeSaveDTO.getEmployeeaddress(),
+				employeeSaveDTO.getMobile()
+				);
+		employeeRepo.save(employee);
+				
+		return employee.getEmployeename();
+	}
+
+}

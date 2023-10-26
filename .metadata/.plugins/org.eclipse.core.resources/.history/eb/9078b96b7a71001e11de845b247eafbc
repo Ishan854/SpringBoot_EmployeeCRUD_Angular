@@ -1,0 +1,9 @@
+package com.SpringProject.Service;
+
+import com.SpringProject.DTO.EmployeeSaveDTO;
+
+public interface EmployeeService {
+
+	String addEmployee(EmployeeSaveDTO employeeSaveDTO);
+	
+}

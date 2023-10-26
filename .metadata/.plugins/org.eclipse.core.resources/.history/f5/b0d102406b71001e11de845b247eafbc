@@ -1,0 +1,17 @@
+package com.SpringProject.Entity;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name = "employee")
+public class Employee {
+	@Id
+	@Column(name = "employee_id", length = 50)
+	private int employeeid;
+	private String employeename;
+	private String employeeaddress;
+	private int mobile;
+}

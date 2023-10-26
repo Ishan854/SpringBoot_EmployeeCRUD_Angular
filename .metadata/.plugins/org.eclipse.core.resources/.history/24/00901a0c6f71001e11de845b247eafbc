@@ -1,0 +1,25 @@
+package com.SpringProject.Service;
+
+import com.SpringProject.DTO.EmployeeSaveDTO;
+import com.SpringProject.Entity.Employee;
+import com.SpringProject.Repo.EmployeeRepo;
+
+public class EmployeeServiceImpl implements EmployeeService{
+
+	private EmployeeRepo employeeRepo;
+	
+	@Override
+	public String addEmployee(EmployeeSaveDTO employeeSaveDTO) {
+		// TODO Auto-generated method stub
+		Employee employee = new Employee(
+				employeeSaveDTO.getEmployeename(),
+				employeeSaveDTO.getEmployeeaddress(),
+				employeeSaveDTO.getMobile()
+
+				
+				);
+				
+		return null;
+	}
+
+}

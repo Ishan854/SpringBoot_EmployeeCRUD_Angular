@@ -1,0 +1,13 @@
+package com.SpringProject.Service;
+
+import com.SpringProject.DTO.EmployeeSaveDTO;
+
+public class EmployeeServiceImpl implements EmployeeService{
+
+	@Override
+	public String addEmployee(EmployeeSaveDTO employeeSaveDTO) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

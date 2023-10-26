@@ -1,0 +1,5 @@
+package com.SpringProject.Entity;
+
+public class Employee {
+
+}
