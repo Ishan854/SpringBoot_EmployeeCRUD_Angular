@@ -58,8 +58,9 @@ This is a Full Stack Employee Management System built using Spring Boot for the 
 # Contact
    For questions or support, you can reach out to the project maintainers:
 
-Kumar Ishan - srivastava.ishan854@gmail.com
-Project Link: https://github.com/Ishan854/SpringBoot_EmployeeCRUD_Angular
+    Name: Kumar Ishan
+    Email: srivastava.ishan854@gmail.com
+    Project Link: https://github.com/Ishan854/SpringBoot_EmployeeCRUD_Angular
 
 
      
