@@ -20,7 +20,8 @@ This is a Full Stack Employee Management System built using Spring Boot for the 
 - **Backend**:
   - Spring Boot
   - Spring Data JPA for database interactions
-  - MySQL/PostgreSQL/your-choice for the database
+  - Spring Web
+  - Spring MySQL/PostgreSQL/your-choice for the database driver
   - RESTful API endpoints
 
 ## Setup
